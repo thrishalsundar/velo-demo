@@ -5,6 +5,8 @@ import './NavComps.css';
 function NavComps(data){
 
     const item=data.data;
+    console.log(item.id);
+    const thatFunc=data.shiftFunc;
 
     if(item.spl){
         return (
@@ -15,7 +17,7 @@ function NavComps(data){
         );
     }
     return (
-        <div className="navComp">
+        <div className="navComp" onClick={()=>thatFunc(item.id)}>
             <img className='navImgs' src={item.itemImg} />
             <p className='fontNav'>{item.itemName}</p>
         </div>

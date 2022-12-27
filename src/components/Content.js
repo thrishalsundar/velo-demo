@@ -5,7 +5,8 @@ import sea from '../assets/search.png'
 import refI from '../assets/refreshIcon.png'
 import { useState } from 'react';
 import TableAndData from './TableAndData';
-
+import fatas from '../data'
+import AddButt from './AddButt';
 
 function Ftab(data){
     
@@ -42,16 +43,33 @@ function Stab(data){
 function Content(){
 
     const [active,setActive]=useState(true);
+    const [datas,setDatas]=useState(fatas);
+    const [modalToggle,setModalToggle]=useState(false);
 
     function changeActive(){
         setActive(!active);
     }
+
+    function addData(){
+        setModalToggle(true);
+    }
+
+    function submitFunc(item){
+        const dupeData=datas[0];
+        dupeData.name=item.name;
+        dupeData.id=item.pid;
+        dupeData.location=item.location;
+        dupeData.physician=item.phyc;
+        console.log(dupeData);
+        setDatas([...datas,dupeData]);
+    }
+
     return (
         <div className="contentA">
             <div className='aboveTable'>
                 <div className='standLeft'>
                     <p className='pats'>Patients</p>
-                    <div className='addPatBtn'>
+                    <div className='addPatBtn' onClick={addData}>
                         <img className='addCir' src={addCir} alt='+' />
                         <p> Add Patient </p>
                     </div>
@@ -72,9 +90,10 @@ function Content(){
                     }
                 </div>
                 <div className='tableContainer'>
-                    <TableAndData />
+                    <TableAndData data={datas} />
                 </div>
             </div>
+            <AddButt open={modalToggle} submitFunc={submitFunc} cancelFunc={()=>setModalToggle(false)}/>
         </div>
     );
 }

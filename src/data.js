@@ -1,0 +1,118 @@
+
+const datas=[
+    {
+        name:"Vinoth Kumar",
+        hr:"tbf",
+        id:43521,
+        physician:"tbf",
+        location:"6,Viveka St,Dubai Kuruku Santhu",
+        eventId:"ET7979",
+        kitId:"TI8345",
+        device:"AI Patch",
+        deviceid:"TI8345",
+        servicetype:"MCT",
+        startDate:"01/11/2020 00:05:02:32:08",
+        endData:"01/11/2020 00:05:02:32:08",
+        dos:"tbf",
+        servStat:"Patient Enrollment",
+        reportType:"Normal",
+        action:"tbf"
+
+    },
+    {
+        name:"Vinoth Kumar",
+        hr:"tbf",
+        id:43521,
+        physician:"tbf",
+        location:"6,Viveka St,Dubai",
+        eventId:"ET7979",
+        kitId:"TI8345",
+        device:"AI Patch",
+        deviceid:"TI8345",
+        servicetype:"MCT",
+        startDate:"01/11/2020 00:05:02:32:08",
+        endData:"01/11/2020 00:05:02:32:08",
+        dos:"tbf",
+        servStat:"Patient Enrollment",
+        reportType:"Normal",
+        action:"tbf"
+
+    },
+    {
+        name:"Vinoth Kumar",
+        hr:"tbf",
+        id:43521,
+        physician:"tbf",
+        location:"6,Viveka St,Dubai",
+        eventId:"ET7979",
+        kitId:"TI8345",
+        device:"AI Patch",
+        deviceid:"TI8345",
+        servicetype:"MCT",
+        startDate:"01/11/2020 00:05:02:32:08",
+        endData:"01/11/2020 00:05:02:32:08",
+        dos:"tbf",
+        servStat:"Patient Enrollment",
+        reportType:"Normal",
+        action:"tbf"
+},
+    {
+        name:"Vinoth Kumar",
+        hr:"tbf",
+        id:43521,
+        physician:"tbf",
+        location:"6,Viveka St,Dubai Kuruku Santhu",
+        eventId:"ET7979",
+        kitId:"TI8345",
+        device:"AI Patch",
+        deviceid:"TI8345",
+        servicetype:"MCT",
+        startDate:"01/11/2020 00:05:02:32:08",
+        endData:"01/11/2020 00:05:02:32:08",
+        dos:"tbf",
+        servStat:"Patient Enrollment",
+        reportType:"Normal",
+        action:"tbf"
+
+    },
+    {
+        name:"Vinoth Kumar",
+        hr:"tbf",
+        id:43521,
+        physician:"tbf",
+        location:"6,Viveka St,Dubai",
+        eventId:"ET7979",
+        kitId:"TI8345",
+        device:"AI Patch",
+        deviceid:"TI8345",
+        servicetype:"MCT",
+        startDate:"01/11/2020 00:05:02:32:08",
+        endData:"01/11/2020 00:05:02:32:08",
+        dos:"tbf",
+        servStat:"Patient Enrollment",
+        reportType:"Normal",
+        action:"tbf"
+
+    },
+    {
+        name:"Vinoth Kumar",
+        hr:"tbf",
+        id:43521,
+        physician:"tbf",
+        location:"6,Viveka St,Dubai",
+        eventId:"ET7979",
+        kitId:"TI8345",
+        device:"AI Patch",
+        deviceid:"TI8345",
+        servicetype:"MCT",
+        startDate:"01/11/2020 00:05:02:32:08",
+        endData:"01/11/2020 00:05:02:32:08",
+        dos:"tbf",
+        servStat:"Patient Enrollment",
+        reportType:"Normal",
+        action:"tbf"
+
+    },
+]
+
+export default datas;
