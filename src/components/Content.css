@@ -1,0 +1,113 @@
+p{
+    margin: 0;
+}
+
+.contentA{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    padding: 25px;
+}
+
+.pats{
+    font-size: x-large;
+    font-weight: 650;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+
+.aboveTable{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+
+.addPatBtn{
+    display: flex;
+    height: 40px;
+    width: 155px;
+    background-color: #8085e9;
+    border-radius: 8px;
+    color: white;
+    font-weight: 650;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.addCir{
+
+    height: 30px;width: 30px;
+
+    filter: invert(100%);
+}
+
+
+.standLeft{
+    height: 100px;
+}
+
+
+.standRight{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    color: #9a9a9a;
+    font-weight: 600;
+}
+
+.transImg{
+    height: 25px;width: 25px;
+    margin-left: 8px;
+    filter: invert(84%) sepia(0%) saturate(0%) hue-rotate(162deg) brightness(88%) contrast(80%);
+}
+
+
+
+.tableButtons{
+
+    display: flex;
+    
+}
+
+
+.actab{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 20px; 
+   padding-right: 20px; 
+
+   border-top: 4px solid  #79c0f6;
+    background-color: white;
+    border-radius: 3px;
+
+    font-weight: 800;
+
+}
+
+.detab{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 20px; 
+   padding-right: 20px; 
+
+    background-color: #d4d6dc;
+    border-radius: 3px;
+
+    font-weight: 800;
+}
+
+.tableContainer{
+    background-color: white;
+    padding-top: 20px;
+}
+
+.actab:hover{
+    cursor: pointer;
+}
+.detab:hover{
+    cursor: pointer;
+}

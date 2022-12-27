@@ -1,0 +1,42 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.wclass{
+    display: flex;
+    width: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.wc-left{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.fif8{
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.t3ma{
+    font-size: 6px;
+    color: #a3a3a3;
+    height:6px;
+}
+
+.wc-left p{
+    display: inline;
+}
+
+.wc-mline{
+    height: 20px;
+    width: 1px;
+    background-color: black;
+}
+
+.bgimg{
+    height: 20px;
+}

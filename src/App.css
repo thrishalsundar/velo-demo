@@ -1,0 +1,11 @@
+
+.topm{
+    display: flex;
+    border: 2px solid #FAFAFA;
+}
+
+.feed{
+    display: flex;
+    flex: 1;
+    height: 100vh;
+}
