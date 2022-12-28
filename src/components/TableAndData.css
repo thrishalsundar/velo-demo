@@ -1,8 +1,7 @@
-
-
 table{
     width: 100%;
     border-collapse: collapse;
+    background-color: #eaeaea;
 }
 th{
     background-color: #dfe2e9;
@@ -20,8 +19,15 @@ td{
     text-align: left;
     padding: 9px;
     padding-right: 0;
-
 }
+
+tr{
+    border-left: 1px solid #eaeaea;    
+    border-bottom: 1px solid #d4e2e9;    
+}
+
+/* dfe2e9 */
+
 
 #hedms{
     padding-top: 10px;

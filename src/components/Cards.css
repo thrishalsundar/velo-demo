@@ -1,0 +1,22 @@
+.cardsDiv{
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    background-color: white;
+    border: 1px solid #eaeaea;
+    border-radius: 20px;
+}
+.titleDiv{
+    padding-top: 30px;
+    display: flex;
+    width: 200px;
+
+}
+
+.fieldsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+}

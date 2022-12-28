@@ -34,7 +34,7 @@ function TableAndData(data){
                 </tr>
                 {
                     datas.map((data)=>{
-                        return (<tr>
+                        return (<tr id='bsd'>
                                     <td>{data.name}</td>
                                     <td><WBar /></td>
                                     <td>{data.id}</td>

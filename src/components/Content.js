@@ -6,7 +6,6 @@ import refI from '../assets/refreshIcon.png'
 import { useState } from 'react';
 import TableAndData from './TableAndData';
 import fatas from '../data'
-import AddButt from './AddButt';
 
 function Ftab(data){
     
@@ -40,28 +39,13 @@ function Stab(data){
 
 }
 
-function Content(){
+function Content({addData}){
 
     const [active,setActive]=useState(true);
-    const [datas,setDatas]=useState(fatas);
-    const [modalToggle,setModalToggle]=useState(false);
+    const datas=fatas;
 
     function changeActive(){
         setActive(!active);
-    }
-
-    function addData(){
-        setModalToggle(true);
-    }
-
-    function submitFunc(item){
-        const dupeData=datas[0];
-        dupeData.name=item.name;
-        dupeData.id=item.pid;
-        dupeData.location=item.location;
-        dupeData.physician=item.phyc;
-        console.log(dupeData);
-        setDatas([...datas,dupeData]);
     }
 
     return (
@@ -93,7 +77,6 @@ function Content(){
                     <TableAndData data={datas} />
                 </div>
             </div>
-            <AddButt open={modalToggle} submitFunc={submitFunc} cancelFunc={()=>setModalToggle(false)}/>
         </div>
     );
 }
