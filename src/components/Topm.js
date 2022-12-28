@@ -6,11 +6,11 @@ import chatImg from '../assets/modeComment.png';
 import proPic from '../assets/3shProPic.png';
 import dropArr from '../assets/expandIcon.png';
 
-function Topm(){
+function Topm({oCloseFunc}){
     return (
         <div className="topmA">
             <div className="topm-left">
-                <div className="tabMenu">
+                <div className="tabMenu" onClick={()=>oCloseFunc()}>
                     <img className='miImg' src={miImg} alt='ics'/>
                 </div>
                 <div className="logo">

@@ -3,10 +3,23 @@
     background-color: white;
     display: flex;
     flex-direction: column;
+    width: max-content;
 }
 
+
+.naverA_coll{
+    color: white;
+    width: 90px;
+}
+.naverA_coll p{
+    display: none;
+}
 
 .naverMenu{
     padding-top: 30px;
 }
 
+
+.hidden{
+    display: none;
+}
