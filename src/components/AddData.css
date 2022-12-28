@@ -65,6 +65,7 @@
     margin-bottom: 15px;
     box-shadow:  20px 20px 60px #dbdbdb,
              -20px -20px 60px #ffffff;
+
 }
 .extTitleDiv{
     padding-top: 30px;
@@ -86,6 +87,7 @@
     flex: 1;
     align-items: center;
     padding-bottom: 50px;
+    padding-right: 30px;
 }
 
 .extDropDownField{
