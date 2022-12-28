@@ -5,16 +5,35 @@
     flex-direction: column;
     flex:1;
     padding: 25px;
+    padding-top: 12px;
 }
 
-.aboveTable{
+.aboveTablead{
     display: flex;
-    height: 100px;
+    height: 60px;
     justify-content: space-between;
+    align-items: center;
+}
+
+.patsad{
+
+    font-size: x-large;
+    font-weight: 650;
+    letter-spacing: 1px;
 }
 
 .summa{
     display: flex;
+    align-items: center;
+}
+
+.backgoimg{
+    height: min-content;width: min-content;
+    padding-right: 10px;
+}
+.backgoimg:hover{
+
+    cursor: pointer;
 }
 
 
@@ -27,4 +46,100 @@
     align-items:flex-end;
     color: #9a9a9a;
     font-weight: 600;
+}
+
+.standLeftad{
+    align-items: center;
+}
+
+
+.extCardsDiv{
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid #eaeaea;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow:  20px 20px 60px #dbdbdb,
+             -20px -20px 60px #ffffff;
+}
+.extTitleDiv{
+    padding-top: 30px;
+    display: flex;
+    width: 200px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.extCardTitle{
+    font-size: 18px;
+    font-weight: 550;
+    color: #424242;
+}
+
+.extFieldsDiv{
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.extDropDownField{
+    margin-left: 30px;
+}
+
+.extFieldInput{
+    width: 280px;height: 36px;
+    border: 1px solid #c4d0d7;
+    border-radius: 2px;
+    background-color: #fcfcfd;
+    font-size: 15px;
+    padding-left:10px;
+    color:#b8bac3;
+}
+
+.extCardsInput{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 8px;
+}
+
+.pd3{
+    padding-bottom: 30px;
+}
+
+.extFIS{
+    height: 36px;
+    border: 1px solid #c4d0d7;
+    border-radius: 2px;
+    background-color: #fcfcfd;
+    font-size: 15px;
+    padding-left:10px;
+    color:#b8bac3;
+    flex: 1;
+}
+
+.extCIFS{
+    display: flex;
+    flex-direction: column;
+    height: 36px;
+    flex: 2;
+    margin: 8px;
+}
+
+.buttonDiv{
+    width: 115px;
+    height: 40px;
+    display: flex;
+    color: white;
+    background-color: #8085e9;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 13px;
 }

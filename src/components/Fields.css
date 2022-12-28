@@ -1,18 +1,57 @@
 .cardsInput{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 8px;
 }
+
+.cardRadio{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.dropDownfield{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.fieldInput{
+    width: 280px;height: 36px;
+    border: 1px solid #c4d0d7;
+    border-radius: 2px;
+    background-color: #fcfcfd;
+    font-size: 15px;
+    padding-left:10px;
+    color:#b8bac3;
+}
+
 
 .fieldTitle{
     padding: 10px 10px 10px 0px;
+    font-size: 12px;
+    color: #5f6377;
+    font-weight: 700px;
 }
 
 .fieldRadDiv{
     display: flex;
+    width: 280px;height: 36px;
+    justify-content: space-evenly;
 }
 
 .opts{
     display: flex;
-    padding-right: 8px;
+    padding-right: 25px;
+    align-items: center;
+}
+
+.radios{
+    margin: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.radioOpts{
+    font-size: 13px;
 }

@@ -7,7 +7,7 @@ function Cards({item}) {
     return (
         <div className="cardsDiv">
             <div className="titleDiv">
-                <p className="cardTitile">{item.title}</p>
+                <p className="cardTitle">{item.title}</p>
             </div>
             <div className="fieldsDiv">
                 {item.fields.map((field)=>{

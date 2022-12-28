@@ -23,7 +23,7 @@ function Fields({field}) {
                                 return (
                                     <div className='opts'>
                                         <input type="radio" className="radios" name={opt} value={opt} />
-                                        <p>{opt}</p>
+                                        <p className='radioOpts'>{opt}</p>
                                     </div>
                                 )
                             })
@@ -36,10 +36,11 @@ function Fields({field}) {
             return (
                 <div className="dropDownfield">
                     <p className="fieldTitle">{field.name}</p>
-                    <select id={field.name} name={field.name}>
+                    <select className="fieldInput"  id={field.name} name={field.name}>
+                        <option value="" disabled selected>{field.placeholder}</option>
                         {
                             field.opts.map((opt)=>{
-                                <option value={opt.name}>{field.opt}</option>
+                                <option value={opt}>{opt}</option>
                             })
                         }
                     </select>
